@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Notes!</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="logo-plus-button">
+            <h1>My notes</h1>
+            <button id="add-note">Add note</button>
+        </div>
+
+        <template id="note-template">
+            <div class="note" draggable="true">
+                <div class="note-header">
+                    <button id="remove-button">x</button>
+                    <input type="text" class="title" placeholder="Title">
+                </div>
+                <textarea class="text" placeholder="Your text"></textarea>
+            </div>
+        </template>
+
+    </div>
+
+
+</body>
+
+</html>
